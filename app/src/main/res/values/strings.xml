@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cinestreno</string>
+    <string-array name="Peliculas">
+        <item>Deadpool</item>
+        <item>Civil War</item>
+        <item>Batman v Superman</item>
+        <item>Suicide Squad</item>
+    </string-array>
+</resources>
