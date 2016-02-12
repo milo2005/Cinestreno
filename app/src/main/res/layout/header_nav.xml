@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/header_bg"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="#333333"
+        />
+
+    <ImageView
+        android:id="@+id/header_profile"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@id/header_bg"
+        android:layout_margin="@dimen/small"
+        android:background="#33b5e5"
+        />
+
+    <TextView
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/header_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_toRightOf="@id/header_profile"
+        android:layout_alignBottom="@id/header_profile"
+        android:text="Dario Chamorro"
+
+        />
+
+</RelativeLayout>

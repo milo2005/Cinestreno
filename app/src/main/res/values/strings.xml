@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">Cinestreno</string>
+    <string name="nav_terror">Terror</string>
+    <string name="nav_comedia">Comedia</string>
+    <string name="nav_accion">Accion</string>
+    <string name="nav_fantasia">Fantasia</string>
+    <string name="nav_perfil">Perfil</string>
+    <string name="nav_datos">Mis Datos</string>
+    <string name="nav_salir">Cerrar Sesion</string>
+    <string name="open_menu">Menu Abierto</string>
+    <string name="close_menu">Se cerro el menu</string>
     <string-array name="Peliculas">
         <item>Deadpool</item>
         <item>Civil War</item>

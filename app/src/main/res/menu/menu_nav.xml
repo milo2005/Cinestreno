@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_terror"
+        android:title="@string/nav_terror"
+        android:icon="@drawable/ic_terror"/>
+
+    <item android:id="@+id/nav_comedia"
+        android:title="@string/nav_comedia"
+        android:icon="@drawable/ic_comedia"/>
+
+    <item android:id="@+id/nav_accion"
+        android:title="@string/nav_accion"
+        android:icon="@drawable/ic_accion"/>
+
+    <item android:id="@+id/nav_fantasia"
+        android:title="@string/nav_fantasia"
+        android:icon="@drawable/ic_fantasia"/>
+
+    <item
+        android:title="@string/nav_perfil"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_datos"
+                android:title="@string/nav_datos"
+                />
+            <item
+                android:id="@+id/nav_salir"
+                android:title="@string/nav_salir"
+                />
+        </menu>
+    </item>
+
+</menu>
